@@ -1,3 +1,3 @@
 # Kállai Bertalan Gábor - Agrard
-# Balogh Richárd - Nem tudjuk
+# Balogh Richárd - Balogh Richárd
 # Hoós Roland - xidashhh
