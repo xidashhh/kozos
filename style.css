@@ -1,0 +1,10 @@
+.jumbotron{
+    background-image: url("img/banner.jpg");
+    background-color: darkgray;
+    color: black
+
+}
+
+form {
+    text-align: center;
+}

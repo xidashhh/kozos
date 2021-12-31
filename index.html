@@ -7,13 +7,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Közös munka</title>
 </head>
 <body>
 
     <div class="jumbotron text-center">
         <h1>Közös Munka</h1>
-        <p>Az oldalon dolgozott: Kállai Bertalan Gábor, Balog Richárd, Hoós Roland</p> 
+        <p>Az oldalon dolgozott: Kállai Bertalan Gábor, Balogh Richárd, Hoós Roland</p> 
       </div>
 
     <div class="container">
@@ -21,46 +22,56 @@
 
             <div class="col-md-6">
                 <table class="table table-striped">
-                    <th>
+                    <thead>
                         <tr>
-                            Teljes név
+                            <td>Teljes név</td>
+                            <td>Felhasználónév</td>
                         </tr>
-                        <tr>
-                            Felhasználónév
-                        </tr>
-                    </th>
+                    </thead>
 
-                    <td>
-                        <tr>
-                            Kállai Bertalan Gábor
-                        </tr>
-                        <tr>
-                            Agrard
-                        </tr>
-                    </td>
+                    <tbody>
 
-                    <td>
                         <tr>
-                            Hoós Roland
+                            <td>Kállai Bertalan Gábor</td>
+                            <td>Agrard</td>
                         </tr>
-                        <tr>
-                            xidashhh
-                        </tr>
-                    </td>
 
-                    <td>
                         <tr>
-                            Balogh Richárd
+                            <td>Hoós Roland</td>
+                            <td>xidashhh</td>
                         </tr>
+
                         <tr>
-                            Nem tudjuk :<
+                            <td>Balogh Richárd</td>
+                            <td>Nem tudjuk >:</td>
                         </tr>
-                    </td>
+                    </tbody>
+
                 </table>
             </div>
-            <div class="col-md-6">
 
-            </div>
+            <form action="">
+                    <div class="form-group text-center">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email cím" required>
+                        <small id="emailHelp" class="form-text text-muted">Az email címed nem fogjuk megosztani senkivel.</small>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <label for="jelszo">Password</label>
+                        <input type="jelszo" class="form-control" id="jelszo" placeholder="Jelszó" required>
+                    </div>
+
+                    <div class="form-check text-center">
+                        <input type="checkbox" class="form-check-input" id="hirlevel">
+                        <label class="form-check-label" for="hirlevel">Szeretne feliratkozni hírlevelünkre?</label>
+                    </div>
+
+                    <div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Regisztráció</button>
+                    </div>
+            </form>
 
         </div>
     </div>
